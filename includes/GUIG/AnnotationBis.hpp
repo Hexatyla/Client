@@ -4,13 +4,13 @@
 // Made by gautier lefebvre
 // 
 // Started on  Fri Mar 14 14:52:39 2014 gautier lefebvre
-// Last update Wed Mar 26 14:06:56 2014 Gautier Lefebvre
+// Last update Mon Mar 31 12:39:53 2014 geoffrey bauduin
 //
 
 #ifndef		__GUIG_ANNOTATION_BIS_HPP__
 #define		__GUIG_ANNOTATION_BIS_HPP__
 
-#include  "utils/graphicException.hh"
+#include  "Utils/graphicException.hh"
 #include  "GUIG/AGUIG.hpp"
 #include  "overlays/AOverlaySceneManager.hh"
 #include  "overlays/OverlayImage.hh"

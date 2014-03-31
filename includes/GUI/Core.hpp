@@ -9,7 +9,7 @@
 #ifndef   __GUI_CORE_HPP__
 # define  __GUI_CORE_HPP__
 
-#include  "utils/graphicException.hh"
+#include  "Utils/graphicException.hh"
 #include  "overlays/AOverlaySceneManager.hh"
 #include  "overlays/OverlayImage.hh"
 #include  "overlays/OverlayText.hh"

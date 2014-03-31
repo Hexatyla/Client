@@ -5,14 +5,14 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Tue Mar  4 14:13:32 2014 Yannick Briffa
-// Last update Wed Mar 19 17:41:24 2014 geoffrey bauduin
+// Last update Mon Mar 31 12:50:33 2014 geoffrey bauduin
 //
 
 #include	"3DElements/Element3DPoolManager.hh"
 #include	"3DElements/Element3DContainer.hh"
-#include	"utils/graphicException.hh"
+#include	"Utils/graphicException.hh"
 #include	"Factory/Client.hpp"
-#include	"utils/convert.hpp"
+#include	"Utils/convert.hpp"
 
 #define	NBINSTANCEINIT	1
 

@@ -5,7 +5,7 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Sat Jan 25 13:48:14 2014 Yannick Briffa
-// Last update Fri Mar  7 17:45:31 2014 Yannick Briffa
+// Last update Mon Mar 31 12:38:12 2014 geoffrey bauduin
 //
 
 #ifndef __ASCENE_HH__
@@ -13,7 +13,7 @@
 
 # include	"Ogre.h"
 # include	"OIS.h"
-# include	"utils/graphicException.hh"
+# include	"Utils/graphicException.hh"
 # include	"effects/IEffect.hh"
 # include	"overlays/AOverlaySceneManager.hh"
 # include	"overlays/OverlayImage.hh"

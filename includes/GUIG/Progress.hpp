@@ -9,7 +9,7 @@
 #ifndef   ___HPP__
 # define  ___HPP__
 
-#include  "utils/graphicException.hh"
+#include  "Utils/graphicException.hh"
 #include  "overlays/AOverlaySceneManager.hh"
 #include  "overlays/OverlayImage.hh"
 #include  "overlays/OverlayText.hh"

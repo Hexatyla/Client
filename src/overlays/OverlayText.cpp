@@ -5,13 +5,13 @@
 // Login   <yannick@epitech.net>
 //
 // Started on  Tue Jan 28 14:58:07 2014 Yannick Briffa
-// Last update Fri Mar 21 16:17:18 2014 gautier lefebvre
+// Last update Mon Mar 31 12:47:43 2014 geoffrey bauduin
 //
 
 #include	<iostream>
 #include	"overlays/OverlayText.hh"
-#include	"utils/graphicException.hh"
-#include	"utils/convert.hpp"
+#include	"Utils/graphicException.hh"
+#include	"Utils/convert.hpp"
 #include	"OgreTextAreaOverlayElement.h"
 #include	"applications/Application.hh"
 

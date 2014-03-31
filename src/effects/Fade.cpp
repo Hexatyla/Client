@@ -5,11 +5,11 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Tue Feb 11 10:07:16 2014 Yannick Briffa
-// Last update Wed Feb 12 15:59:10 2014 Yannick Briffa
+// Last update Mon Mar 31 12:45:15 2014 geoffrey bauduin
 //
 
 #include	"effects/Fade.hh"
-#include	"utils/graphicException.hh"
+#include	"Utils/graphicException.hh"
 
 Fade::Fade(OverlayImage *overlay, double begin, double end, double duration)
   : AFade(overlay, begin, end, duration)

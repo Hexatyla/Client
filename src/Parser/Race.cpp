@@ -5,10 +5,10 @@
 // Login   <geoffrey@epitech.net>
 // 
 // Started on  Mon Mar 10 16:17:21 2014 geoffrey bauduin
-// Last update Tue Mar 25 18:29:08 2014 geoffrey bauduin
+// Last update Mon Mar 31 12:36:47 2014 geoffrey bauduin
 //
 
-#include	"Parser/RaceClient.hpp"
+#include	"Parser/Race.hpp"
 #include	"Kernel/Manager.hpp"
 #include	"Logger.hpp"
 #include	"Factory/Kernel.hpp"

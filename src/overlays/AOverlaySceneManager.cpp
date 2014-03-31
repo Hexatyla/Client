@@ -5,7 +5,7 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Mon Feb  3 11:04:07 2014 Yannick Briffa
-// Last update Tue Mar 11 15:56:38 2014 Yannick Briffa
+// Last update Mon Mar 31 12:48:44 2014 geoffrey bauduin
 //
 
 #include	<iterator>
@@ -13,7 +13,7 @@
 
 #include	"applications/Application.hh"
 #include	"overlays/AOverlaySceneManager.hh"
-#include	"utils/graphicException.hh"
+#include	"Utils/graphicException.hh"
 
 AOverlaySceneManager::AOverlaySceneManager(std::string const &name, ushort prio)
   : _name(name), _priority(prio), _isVisible(true)

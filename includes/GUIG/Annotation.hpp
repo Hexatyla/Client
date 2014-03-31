@@ -9,7 +9,7 @@
 #ifndef   __GUIG_ANNOTATION_HPP__
 # define  __GUIG_ANNOTATION_HPP__
 
-#include  "utils/graphicException.hh"
+#include  "Utils/graphicException.hh"
 #include  "GUIG/AGUIG.hpp"
 #include  "overlays/AOverlaySceneManager.hh"
 #include  "overlays/OverlayImage.hh"

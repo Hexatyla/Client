@@ -39,7 +39,7 @@
 #include  "GUIG/Squad.hpp"
 #include  "GUIG/ChatBox.hpp"
 
-#include  "Parser/RaceClient.hpp"
+#include  "Parser/Race.hpp"
 
 #include  "3DElements/Element3DPoolManager.hh"
 #include  "3DElements/Element3DContainer.hh"

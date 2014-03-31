@@ -5,12 +5,12 @@
 // Login   <yannick@epitech.net>
 //
 // Started on  Tue Jan 28 14:58:07 2014 Yannick Briffa
-// Last update Tue Mar 11 16:53:58 2014 Yannick Briffa
+// Last update Mon Mar 31 12:47:27 2014 geoffrey bauduin
 //
 
 #include	<iostream>
 #include	"overlays/OverlayImage.hh"
-#include	"utils/graphicException.hh"
+#include	"Utils/graphicException.hh"
 
 OverlayImage::OverlayImage(std::string const &scene, std::string const &name, std::string const &file, ushort priority, bool locked)
   : AOverlay(scene, name, priority, locked), _file(file), _texture(NULL), _border(2), _rotated(false)

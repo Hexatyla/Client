@@ -5,12 +5,12 @@
 // Login   <yannick@epitech.net>
 //
 // Started on  Tue Jan 28 14:58:07 2014 Yannick Briffa
-// Last update Sat Mar 15 12:17:16 2014 Yannick Briffa
+// Last update Mon Mar 31 12:47:12 2014 geoffrey bauduin
 //
 
 #include	<iostream>
 #include	"overlays/AOverlay.hh"
-#include	"utils/graphicException.hh"
+#include	"Utils/graphicException.hh"
 
 AOverlay::AOverlay(std::string const &scene, std::string const &name, ushort priority, bool locked)
   : _scene(scene), _name(name), _priority(priority), _locked(locked), _isAlreadyDeleted(false), _guiOverlay(NULL),_container(NULL), _parent(NULL), _currentPos(Ogre::Real(0), Ogre::Real(0)), _size(Ogre::Real(0), Ogre::Real(0)), _winSize(Ogre::Real(0), Ogre::Real(0))

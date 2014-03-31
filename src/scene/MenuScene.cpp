@@ -5,7 +5,7 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Sat Jan 25 15:22:38 2014 Yannick Briffa
-// Last update Thu Feb 20 15:26:40 2014 Yannick Briffa
+// Last update Mon Mar 31 12:46:47 2014 geoffrey bauduin
 //
 
 #include	<algorithm>
@@ -19,7 +19,7 @@
 #include	"overlays/MainMenuOverlaySceneManager.hh"
 #include	"overlays/Click.hh"
 #include	"overlays/TextBox.hh"
-#include	"utils/convert.hpp"
+#include	"Utils/convert.hpp"
 
 MenuScene::MenuScene(Ogre::RenderWindow *win)
   : AScene(std::string("MenuScene"), win, Ogre::ColourValue(0.08,0.08,0.08)), _moving(false)

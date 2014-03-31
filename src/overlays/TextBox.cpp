@@ -5,11 +5,11 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Thu Feb 20 11:04:42 2014 Yannick Briffa
-// Last update Fri Mar 21 18:35:11 2014 gautier lefebvre
+// Last update Mon Mar 31 12:48:02 2014 geoffrey bauduin
 //
 
 #include	"overlays/TextBox.hh"
-#include	"utils/convert.hpp"
+#include	"Utils/convert.hpp"
 
 TextBox::TextBox(std::string const &scene, std::string const &name, std::string const &file, ushort priority, bool locked)
   : OverlayImage(scene, name, file, priority, locked), _textCount(0)

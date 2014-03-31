@@ -5,12 +5,12 @@
 // Login   <yannick@epitech.net>
 //
 // Started on  Tue Jan 28 14:58:07 2014 Yannick Briffa
-// Last update Mon Mar  3 18:07:51 2014 Yannick Briffa
+// Last update Mon Mar 31 12:48:16 2014 geoffrey bauduin
 //
 
 #include	<iostream>
 #include	"overlays/InputText.hh"
-#include	"utils/convert.hpp"
+#include	"Utils/convert.hpp"
 #include	"applications/Application.hh"
 
 InputText::InputText(std::string const &scene, std::string const &name, std::string const &file, ushort priority, bool locked, bool isPasswd)

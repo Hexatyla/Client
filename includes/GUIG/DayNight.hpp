@@ -5,13 +5,13 @@
 // Login   <gautier@epitech.net>
 // 
 // Started on  Tue Mar 11 17:10:01 2014 gautier lefebvre
-// Last update Wed Mar 26 13:55:31 2014 Gautier Lefebvre
+// Last update Mon Mar 31 12:40:10 2014 geoffrey bauduin
 //
 
 #ifndef		__GUIG_DAYNIGHT_HPP__
 #define		__GUIG_DAYNIGHT_HPP__
 
-#include  "utils/graphicException.hh"
+#include  "Utils/graphicException.hh"
 #include  "GUIG/AGUIG.hpp"
 #include  "overlays/AOverlaySceneManager.hh"
 #include  "overlays/OverlayImage.hh"

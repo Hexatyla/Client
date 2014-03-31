@@ -5,7 +5,7 @@
 // Login   <yannick@epitech.net>
 // 
 // Started on  Fri Jan 24 15:39:24 2014 Yannick Briffa
-// Last update Fri Mar  7 17:02:32 2014 gautier lefebvre
+// Last update Mon Mar 31 12:38:22 2014 geoffrey bauduin
 //
 
 #ifndef	__APPLICATION_HH__
@@ -16,7 +16,7 @@
 # include	"Ogre.h"
 # include	"Overlay/OgreOverlaySystem.h"
 # include	"overlays/AOverlaySceneManager.hh"
-# include	"utils/graphicException.hh"
+# include	"Utils/graphicException.hh"
 # include	"scene/AScene.hh"
 # include "GUI/Controller.hpp"
 # include "GUIG/Controller.hpp"
