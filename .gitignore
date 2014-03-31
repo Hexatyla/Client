@@ -22,3 +22,9 @@
 
 # Dependencies files
 *.deps
+
+# Application
+client
+
+# Ogre files
+Ogre.log
