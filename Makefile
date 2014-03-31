@@ -5,7 +5,7 @@
 ## Login   <baudui_g@epitech.net>
 ## 
 ## Started on  Wed Feb  5 14:00:43 2014 geoffrey bauduin
-## Last update Mon Mar 31 12:52:00 2014 geoffrey bauduin
+## Last update Mon Mar 31 13:03:26 2014 geoffrey bauduin
 ##
 
 NAME=			client
@@ -23,6 +23,7 @@ ELEM3D=			$(SRCDIR)3DElements/
 
 SRC=			src/Factory/Client.cpp				\
 			src/Parser/Race.cpp				\
+			src/Network/Manager/Client.cpp			\
 			$(GUIDIR)Controller.cpp				\
 			$(GUIDIR)Convers.cpp				\
 			$(GUIDIR)Core.cpp				\
@@ -91,7 +92,7 @@ IOIS=			-I./includes/Libs/OIS/
 
 IMY=			-I./includes/ -Icommon/includes
 
-LDFLAGS=		$(LOGRE) $(LOIS) -lboost_system -Wl,-rpath,./libs/ -Wl,-rpath,./libs/OGRE -lssl -lcrypto -lpthread  common/libs/libjson.a -Wl,-rpath,./lib/ common/common.a
+LDFLAGS=		$(LOGRE) $(LOIS) -lboost_system -Wl,-rpath,./libs/ -Wl,-rpath,./libs/OGRE -lssl -lcrypto -lpthread  common/libs/libjson.a -Wl,-rpath,./lib/ common/hexatylaCommon.so -L./common/libs -ljson
 
 INCLUDES=		$(IMY) $(IOGRE) $(IOIS) $(ICEGUI)
 
